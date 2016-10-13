@@ -15,7 +15,7 @@ public class HelloController implements EnvironmentAware{
 	}
 	@RequestMapping("/")
 	public String index(){
-		return "Greetings"+ name + "from spring app";
+		return "Greetings from "+ name + " Hello!!! Spring App";
 	}
 
 }
